@@ -1,0 +1,19 @@
+{
+	"name":        "constants",
+	"description": "Small library for defining constants for your modules",
+	"author":      "Dominic Barnes <contact@dominicbarnes.us> (http://dominicbarnes.us)",
+	"keywords":    [ "constants", "modules" ],
+	"version":     "0.1",
+	"homepage":    "http://github.com/dominicbarnes/node-constants",
+    "main":        "index",
+	"repository": {
+		"type": "git",
+		"url":  "git://github.com/dominicbarnes/node-constants.git"
+	},
+	"engines": {
+		"node": ">= 0.4"
+	},
+    "scripts": {
+        "test": "mocha"
+    }
+}
