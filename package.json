@@ -1,5 +1,5 @@
 {
-	"name":        "constants",
+	"name":        "const",
 	"description": "Small library for defining constants for your modules",
 	"author":      "Dominic Barnes <contact@dominicbarnes.us> (http://dominicbarnes.us)",
 	"keywords":    [ "constants", "modules" ],
