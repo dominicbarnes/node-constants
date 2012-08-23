@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/dominicbarnes/node-constants.png)](http://travis-ci.org/dominicbarnes/node-constants)
 # node-constants
 
 A small library for defining module-level constants.
