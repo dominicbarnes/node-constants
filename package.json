@@ -1,12 +1,12 @@
 {
-  "name": "constants",
+  "name": "node-constants",
   "description": "Small library for defining constants for your modules",
   "author": "Dominic Barnes <dominic@dbarnes.info>",
   "keywords": [
     "constants",
     "modules"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "http://github.com/dominicbarnes/node-constants",
   "main": "index",
   "repository": {
@@ -18,7 +18,7 @@
     "node": ">= 0.4"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "mocha"
   },
   "devDependencies": {
     "mocha": "~1.9.0"
