@@ -13,18 +13,22 @@ I've had to rename to the more verbose,
 
 ## Basic Usage
 
-    var define = require("node-constants")(exports);
-    // define is a function that binds "constants" to an object (commonly exports)
+```javascript
+var define = require("node-constants")(exports);
+// define is a function that binds "constants" to an object (commonly exports)
 
-    // a single constant
-    define("PI", 3.14);
+// a single constant
+define("PI", 3.14);
 
-    // or multiple
-    define({
-        DAYS_IN_WEEK: 7,
-        SECONDS_IN_MINUTE: 60
-    });
+// or multiple
+define({
+    DAYS_IN_WEEK: 7,
+    SECONDS_IN_MINUTE: 60
+});
+```
 
 ## Installation
 
-    npm install --save node-constants
+```shell
+$ npm install --save node-constants
+```
